@@ -1,0 +1,399 @@
+*
+
+{
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+.full-page
+
+{
+
+    height: 1000px;
+
+    width: 1350px;
+    background: url(3.jpeg);
+    background-size: cover;
+
+
+    left: 50px;
+
+    top: 50px;
+*/
+    background: coral;*/
+
+    position: absolute;
+
+}
+
+
+.sub-page
+
+{
+    
+    background: url(.jpeg);
+    background-size: cover;
+
+    background-position: center;
+    width: 1200px;
+    height:700px;
+
+    position: absolute;
+
+    
+}
+
+.navigation-bar
+
+{
+
+    width:1350px;
+    height:60px;
+    display: flex;
+
+    align-items: center;
+
+    padding: 20px;
+
+    padding-left: 80px;
+
+    padding-right: 30px;
+
+    padding-top: 15px;
+    
+    background:rgba(0,0,0,0.6);
+}
+
+
+
+nav
+
+{
+
+    flex: 1;
+
+    position: fixed;
+
+    right: 0;
+
+}
+
+
+nav ul 
+
+{
+
+    display: inline-block;
+   
+    list-style: none;
+    
+   
+   
+
+}
+
+nav ul li
+
+{
+
+    display: inline-block;
+
+    margin-right: 90px;
+
+    color: pink;
+    margin-top: 17px;
+
+   
+}
+
+nav ul li a
+
+{
+
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    color: white;
+    font-weight:bold;
+    padding :5px 5px;
+    border:1px;
+    font-family: sans-serif;
+    
+
+}
+
+.row
+
+{
+      
+    display: flex;
+
+    align-items: left;
+
+    flex-wrap: nowrap;
+
+    justify-content: space-around;
+
+}
+
+.col-1
+
+{
+
+    flex-basis: 50%;
+    padding :0 15px;
+    column-gap:40 px;
+    min-width: 300px;
+
+    transition: 0.2s ease;
+  cursor: pointer;
+  margin:30px;
+}
+
+
+
+.form-box
+
+{
+
+    width: 300px;
+
+	height: 538px;
+
+	position: relative;
+
+    top: 30px;
+
+    left: 120px;
+
+	background: rgba(0,0,0,0.6);
+
+}
+
+.main-heading
+
+{
+
+    color: orangered;
+
+    padding-bottom: 20px;
+
+}
+
+.form
+
+{
+
+	position: relative;
+
+	margin: 0 auto 100px;
+
+	padding: 45px;
+
+    text-align: center;
+
+}
+
+.form input
+
+{
+
+	font-family: sans-serif;
+
+	outline: none;
+
+    border: none;
+
+    border-bottom: 1px solid black;
+
+	width: 100%;
+
+	margin: 0 0 15px;
+
+	padding: 15px;
+
+	font-size: 14px;
+
+}
+
+.form button
+
+{
+
+	font-family: sans-serif;
+
+	width: 100%;
+
+    color: white;
+
+	font-size: 14px;
+
+	cursor: pointer;
+
+	padding: 15px;
+
+    border: none;
+
+    background: coral;
+
+}
+
+.form .message
+
+{
+
+    font-size: 12px;
+
+	margin: 15px 0 0;
+
+    color: white;
+
+}
+
+.form .message a
+
+{
+
+	color: orangered;
+
+	text-decoration: none;
+
+}
+
+.form .register-form{
+
+	display: none;
+
+}
+
+.defination
+
+{
+
+    text-align: left;
+
+    font-size: 30px;
+
+    color: white;
+
+    font-family: 'Kaushan Script', cursive;
+
+    padding-left: 60px;
+
+}
+
+.form-box:hover{
+	color:#3d3d3d;
+        background: Celadon;  
+  transform: scale(1.05);
+  box-shadow: 5px 5px 15px rgba(0,0,0,1.0);  
+   color: rgb(59, 59, 59); 
+}
+
+.header
+{
+height:200px;
+width:1350px;
+background:#FFFBF1;
+
+}
+
+
+/*Header css*/
+
+.header {
+    
+    background: linear-gradient(to bottom, #ffff8f 0%, #ffffff 100%);
+}
+
+.logo1
+{
+height:180px;
+width:250px;
+display:flex;
+justify-content:center;
+align-items:center;
+float:left;
+padding-top:15px;
+padding-left:430px;
+}
+
+
+
+.title
+{
+height:180px;
+width:820px;
+float:right;
+text-align:center;
+color:black;
+padding-right:300px;
+}
+
+.title .heading
+{
+padding-top:45px;
+padding-buttom:15px;
+font-size:42px;
+font-weight:700;
+margin:0;
+}
+
+.title .sub_heading
+{
+font-weight:700;
+margin:0;
+padding:0;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #24262b;
+  width:1250px;
+  height:50px;
+  align-items: right;
+ 
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: left;
+  padding: 22px 22px;
+  text-decoration: none;
+  font-size: 20px;
+  padding-top: 12px;
+    border:1px;
+    font-family: sans-serif;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+
+/*responsive*/
+@media(max-width: 767px){
+  full-page{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  full-page{
+    width: 100%;
+}
+}
